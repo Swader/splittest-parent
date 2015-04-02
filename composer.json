@@ -8,5 +8,20 @@
 	"somepackage": "~1",
         "swader/splittest-child1": "~1",
         "swader/splittest-child2": "~1"
+    },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/swader/splittest-child1"
+    },
+    {
+	"type": "vcs",
+	"url": "https://github.com/swader/splittest-child2"
+    },
+    "extras": {
+        "branch-alias": {
+            "dev-master": "*"
+        }
     }
+]
 }
