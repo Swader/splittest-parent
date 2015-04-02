@@ -1,0 +1,9 @@
+{
+    "name": "swader/splittest-child1",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    }
+}
